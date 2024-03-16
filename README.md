@@ -33,3 +33,4 @@ Place the resulting sdv file from the encoding step into `data/train` and procee
 By following these steps, you should be able to set up your environment, compile and encode the data, and train your first GAN model. Don't forget to decode the synthetic data after training.
 
 Have fun! 🚀
+\- Mike
