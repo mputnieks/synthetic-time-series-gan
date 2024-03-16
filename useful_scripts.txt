@@ -1,0 +1,15 @@
+Setup venv for python project ->
+
+cd to the project directory
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+deactivate
+
+Setup CUDAS with PyTorch ->
+
+Look for which CUDAS fits with PyTorch https://pytorch.org/get-started/locally/
+Install "NSight Visual Studio Code Edition" extension
+Install the CUDAS Toolkit version that fits PyTorch
+Install the compatible PyTorch version in your virtual environment
+If not working - look to setup the cuDNN and then redo the CUDAS and PyTorch installation
